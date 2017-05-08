@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Increase Solar Panels</title>
+    <title>SCOT</title>
     <link rel="stylesheet" type="css/text" src="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -11,6 +11,7 @@ html, body {
   box-sizing: border-box;
   height: 100%;
   margin: 0;
+  padding: 0;
 }
 * {
   box-sizing: inherit;
@@ -20,67 +21,77 @@ html, body {
   width: 100%;
   margin: 0;
   padding: 0;
+  text-align: center;
+  font-family: "Taviraj", serif;
 }
 #header {
-  width: inherit;
-  margin: inherit;
-  padding: inherit;
+  overflow-x: auto;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+  width: 100%;
 }
 #content {
   text-align: center;
   font-family: "Taviraj", serif;
   width: 90%;
   margin: auto;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  padding-left: 5%;
-  overflow: hidden;
-  background-color: #333;
-  font-family: "Taviraj", serif;
-}
-li {
-  float: left;
-}
-li a {
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  height: 100%;
 }
-li a:hover {
-  background-color: #111;
+.seperator {
+  border: 2px solid black;
+  width: 90%;
 }
 #footer {
   font-family: "Roboto", sans-serif;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
   background-color: #efefef;
   text-align: center;
-}   
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: grey;
+}
     </style>
-  <head>
+  </head>
   <body>
     <div id="wrapper">
-      <div id="header">
-        <ul>
-          <li><a href="#info">Information</a></li>
-        </ul>
+      <div id="header" class="top">
+        <h1>Stop Chinese Organ Trafficking</h1>
+      </div>
+      <div class="top">
+        <h1>Stop Chinese Organ Trafficking</h1>
       </div>
       <div id="content">
-        <div class="section" id="info">
-          <h1>Information</h1>
-          <p>Climate change is an ever growing problem that needs a lot of help to solve it. Solar panels are a great way to lower the amount of fossil fuels being burned, and turning the main power source to renewable energy. Higher tax deductibles on solar panels will make people interested in saving money. People will realize how solar panels can save then money in the future. Solar panels are the future with newer technology and cheaper investments. With a higher deductible, pepole, company's, and businesses will be more interested in getting solar panels. With the government making higher deductible solar panels, we can help  advance to a better today, and future.</p>
+        <div id="info">
+          <h1>General Information</h1>
+          <p>Organ trafficking is defined as illegal harvest, transport, and/or use of human organs. In China, it is a billion dollar industry.  Although it generates a profit for the Chinese government, it is extremely cruel and harmful. Each year, Chinese hospitals illegally perform over 60,000 organ transplants. Most of the organs used are taken from those not aligned with the Chinese government’s political or religious ideals. People such as those who follow Falun Gong are targeted based on their beliefs, and executed by the government in order to replenish the supply of organs for transplant.</p>
+          <p>The Chinese organ trafficking goes against international law declared by the United Nations. According to the UN, it is a direct violation of human rights.</p>
         </div>
       </div>
       <div id="footer">
-        <p>Webpage Programmer: Bryan Johnson</p>
+        <p>Place Holder</p>
       </div>
     </div>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="interact.js"></script>
+  </body>
 <html>
